@@ -494,4 +494,4 @@ def giphy_api(tag):
     gif = resposta_json['data'][randrange(0,15)]['id']
     return 'https://media.giphy.com/media/{}/giphy.gif'.format(gif)
 
-client.run('NDI3MDkzOTM2MjUxODYzMDQw.DZfh5g.Mq0LRmIv8qU3CQLGB7Jaog3dXnc')                                                          
+client.run('TOKEN')
